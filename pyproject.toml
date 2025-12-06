@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "spoon-ai-sdk>=0.2.1",
+    "spoon-toolkits>=0.1.0",
+]
