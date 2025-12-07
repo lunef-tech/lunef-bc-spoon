@@ -1,10 +1,11 @@
 [project]
 name = "lunef-bc-spoon"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lunef voice-native AI wallet agents powered by SpoonOS"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "spoon-ai-sdk>=0.2.1",
-    "spoon-toolkits>=0.1.0",
+    "spoon-ai-sdk>=0.3.4",
+    "spoon-toolkits>=0.2.2",
+    "httpx>=0.28.1",
 ]
